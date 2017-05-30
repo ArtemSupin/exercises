@@ -19,7 +19,7 @@ namespace Calories.View
 
             set
             {
-                if (value < 0 || value > 300)
+                if (value < 0 || value > 301)
                 {
                     throw new ArgumentException(@"Error with weight Human");
                 }
